@@ -2,7 +2,7 @@
 
 Claude Code skills for creating and editing Obsidian vault files.
 
-## Skills Included
+## Skills included
 
 | Skill | Description | File Types |
 |-------|-------------|------------|
@@ -21,7 +21,7 @@ claude plugin add obsidian@kepano
 claude plugin install obsidian@kepano
 ```
 
-### Manual Installation
+### Manual installation
 
 Clone or copy this repository into your project's `.claude/plugins/` directory:
 
@@ -32,14 +32,6 @@ git clone https://github.com/obsidianmd/obsidian-skills.git .claude/plugins/obsi
 
 # Option 2: Add as git submodule
 git submodule add https://github.com/obsidianmd/obsidian-skills.git .claude/plugins/obsidian
-```
-
-### Legacy Installation (Skills Only)
-
-Copy the `skills/` directory contents into your `.claude/skills/` folder:
-
-```bash
-cp -r skills/* .claude/skills/
 ```
 
 ## Usage
@@ -56,11 +48,3 @@ Once installed, Claude Code will automatically use these skills when working wit
 - [Obsidian Flavored Markdown](https://help.obsidian.md/obsidian-flavored-markdown)
 - [Obsidian Bases](https://help.obsidian.md/bases)
 - [JSON Canvas Spec](https://jsoncanvas.org/)
-
-## Contributing
-
-Contributions welcome! Please open an issue or pull request.
-
-## License
-
-MIT License - see [LICENSE](./LICENSE)
